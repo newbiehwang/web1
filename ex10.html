@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+
+    <script>
+        var coworkers = {
+            "programmers" : "egoing",
+            "designers" : "leezche"
+        };
+
+        document.write("programmers : " + coworkers.programmers + "<br>");
+        document.write("designers : " + coworkers.designers + "<br>");
+        coworkers.bookkeeper = "hwang";
+        document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+        coworkers["data scientist"] = "shincheol"; // 띄어쓰기 있을 경우
+        document.write("data scientist : " + coworkers["data scientist"] + "<br>");
+    </script>
+</body>
+</html>
